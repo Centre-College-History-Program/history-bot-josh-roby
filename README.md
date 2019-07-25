@@ -1,5 +1,5 @@
 # History Bots
-<img align="right" src="historybotsmall.png">
+<img align="right" src="historybotwebsite.png">
 
 "History Bots" is an upper division History class offered at Centre College during CentreTerm, an intensive 16-day term offered in January between long terms. The class will be taught for the first time in January 2020.
 
