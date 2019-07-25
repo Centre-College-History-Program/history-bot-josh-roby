@@ -3,5 +3,7 @@
 
 @import "{{ site.theme }}";
 div.wrapper {
+  position: absolute;
+  left: 0px;
   max-width: 300px;
 }
