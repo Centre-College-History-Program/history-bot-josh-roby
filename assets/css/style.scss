@@ -2,3 +2,6 @@
 ---
 
 @import "{{ site.theme }}";
+div.wrapper {
+  max-width: 300px;
+}
