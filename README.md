@@ -1,4 +1,6 @@
 # History Bots
+![historybot](HistoryBot.png)
+
 "History Bots" is an upper division History class offered at Centre College during CentreTerm, an intensive 16-day term offered in January between long terms. The class will be taught for the first time in January 2020.
 
 I have taught CentreTerm classes focused on student group work, including production of video games and podcast episodes. You can learn more about me [here](https://profjohnharney.com/about-2/).
