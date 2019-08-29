@@ -13,3 +13,5 @@ A little robot, powered by a Raspberry Pi Model 3B+, that will stand outside my 
 08-26-2019: A frustrating day at the office; Motion is giving me problems and it looks like I have a hardware failure on the Raspberry Pi camera. I was already thinking of going a different direction, but perhaps that decision has been made for me.
 
 08-28-2019: Two more incredibly frustrating days... followed by success!!! I think I know Python now. I now have a bot that will fire out Jeff Daniels performing Lincoln at strangers.
+
+08-29-2019: It works! Lincoln Bot, as he is now known, sits outside my office and recites the opening of the Gettysburg Address to students as they walk by! And my colleague every time she moves her door even slightly... might need to figure that out...
