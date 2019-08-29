@@ -22,9 +22,9 @@ while True:
         current_state = GPIO.input(pir_sensor)
         if current_state == 1:
           print("Lincoln Bot Activated") # motion detected
-          os.system(myCmd) # plays the mp3
           GPIO.output(led,True) #Turn on LED
           time.sleep(2) # leave LED on for 2 seconds
+          os.system(myCmd) # plays the mp3
           GPIO.output(led,False) #turn off LED
           time.sleep(4) # wait 4 seconds for PIR to reset. 
     except KeyboardInterrupt:
