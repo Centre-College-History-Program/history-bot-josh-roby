@@ -15,7 +15,8 @@ myCmd1 = 'omxplayer -o alsa lincoln.mp3'
 myCmd2 = 'omxplayer -o alsa lincoln2.mp3'
 myCmd3 = 'omxplayer -o alsa lincoln3.mp3'
 myCmd4 = 'omxplayer -o alsa lincoln4.mp3'
-myList = [myCmd1, myCmd2, myCmd3, myCmd4]
+myCmd5 = 'espeak "John Todd Stuart lent me books"'
+myList = [myCmd1, myCmd2, myCmd3, myCmd4, myCmd5]
 
 GPIO.setup(pir_sensor, GPIO.IN, GPIO.PUD_DOWN)
 
@@ -30,7 +31,7 @@ while True:
           print("Lincoln Bot Activated") # motion detected
           GPIO.output(led,True) #Turn on LED
           time.sleep(2) # leave LED on for 2 seconds
-          os.system(random.choice(myList)) # plays the mp3
+          os.system(random.choice(myList)) # plays one of the mp3 files
           GPIO.output(led,False) #turn off LED
           time.sleep(4) # wait 4 seconds for PIR to reset.
     except KeyboardInterrupt:
