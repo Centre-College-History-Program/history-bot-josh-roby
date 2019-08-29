@@ -1,6 +1,6 @@
-# History Greetings Bot
+# Lincoln Bot
 
-A little robot, powered by a Raspberry Pi Model 3B+, that will stand outside my office and greet passers by with bits of history trivia and quotes.
+A little robot, powered by a Raspberry Pi Model 3B+, that will stand outside my office and greet passers by with quotations from Abraham Lincoln, the sixteenth president of the United States.
 
 ## Required Components
 
