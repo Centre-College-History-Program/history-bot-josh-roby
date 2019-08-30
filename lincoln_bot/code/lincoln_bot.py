@@ -30,7 +30,6 @@ while True:
         if current_state == 1:
           print("Lincoln Bot Activated") # motion detected
           GPIO.output(led,True) #Turn on LED
-          time.sleep(2) # leave LED on for 2 seconds
           os.system(random.choice(myList)) # plays one of the mp3 files
           GPIO.output(led,False) #turn off LED
           time.sleep(4) # wait 4 seconds for PIR to reset.
