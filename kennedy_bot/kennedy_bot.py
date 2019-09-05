@@ -1,4 +1,6 @@
-# this code exists thanks to Texas-Mark on the official RPi forums, he shared the code the original iteration of this was (heavily) based on at https://www.raspberrypi.org/forums/viewtopic.php?t=176241
+# this code exists thanks to Texas-Mark on the official RPi forums, 
+# he shared the code the original iteration of this was (heavily) based on at 
+# https://www.raspberrypi.org/forums/viewtopic.php?t=176241
 
 import RPi.GPIO as GPIO
 import time
@@ -27,7 +29,6 @@ while True:
         time.sleep(0.1)
         current_state = GPIO.input(pir_sensor)
         if current_state == 1:
-          print("Lincoln Bot Activated") # motion detected
           GPIO.output(led,True) #Turn on LED
           os.system(random.choice(myList)) # plays one of the mp3 files
           GPIO.output(led,False) #turn off LED
