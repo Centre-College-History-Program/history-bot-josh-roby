@@ -35,6 +35,7 @@ while True:
         if GPIO.input(20) == GPIO.HIGH:
           GPIO.output(led,True) #Turn on LED
           os.system(random.choice(myList)) # plays one of the mp3 files
+          print("History Bot Successfully Activated!")
           GPIO.output(led,False) #turn off LED
     except KeyboardInterrupt:
         GPIO.cleanup()
