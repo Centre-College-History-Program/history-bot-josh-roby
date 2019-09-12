@@ -21,7 +21,7 @@ button = 18 # GPIO pin 18
 GPIO.setup(led,GPIO.OUT) # sets up pin 21 to output
 GPIO.setup(button, GPIO.IN, pull_up_down=GPIO.PUD_UP) #sets up pin 18 as a button
 
-myCmd1 = 'omxplayer -o alsa /home/pi/kennedy_bot/kennedy1.mp3' # These examples are from the "Kennedy bot"
+myCmd1 = 'omxplayer -o alsa /home/pi/historybots/kennedy_bot/kennedy1.mp3' # These examples are from the "Kennedy bot"
 myCmd2 = 'omxplayer -o alsa /home/pi/historybots/kennedy_bot/kennedy2.mp3' # Change 
 myCmd3 = 'omxplayer -o alsa /home/pi/historybots/kennedy_bot/kennedy3.mp3' # as
 myCmd4 = 'omxplayer -o alsa /home/pi/historybots/kennedy_bot/kennedy4.mp3' # needed
