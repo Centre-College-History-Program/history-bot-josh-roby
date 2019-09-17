@@ -1,4 +1,4 @@
-# John Harney, Centre College, 09.13.19
+# John Harney, Centre College, 09.17.19
 
 # this code exists thanks to Texas-Mark on the official RPi forums,
 # he shared the code the original (PIR sensor) iteration of this was based on at
@@ -25,7 +25,8 @@ myCmd1 = 'omxplayer -o alsa reagan1.mp3' # These examples are from the "Reagan b
 myCmd2 = 'omxplayer -o alsa reagan2.mp3' # Change
 myCmd3 = 'omxplayer -o alsa reagan3.mp3' # as
 myCmd4 = 'omxplayer -o alsa reagan4.mp3' # needed
-myList = [myCmd1, myCmd2, myCmd3, myCmd4]
+myCmd5 = 'omxplayer -o alsa reagan5.mp3'
+myList = [myCmd1, myCmd2, myCmd3, myCmd4, myCmd5]
 
 while True:
         input_state = GPIO.input(button) # primes the button!
