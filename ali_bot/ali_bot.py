@@ -37,5 +37,5 @@ while True:
             GPIO.output(led,True) #Turn on LED
             os.system(random.choice(myList)) # play sound file
             GPIO.output(led,False) #turn off LED
-            print("History Bot has been activated", i_count, "times!")
+            print("History Bot has been activated" + str(i_count) + "times!")
             time.sleep(0.2)
