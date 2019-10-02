@@ -1,4 +1,11 @@
-# this code exists thanks to Texas-Mark on the official RPi forums, he shared the code the original iteration of this was (heavily) based on at https://www.raspberrypi.org/forums/viewtopic.php?t=176241
+# John Harney, Centre College, updated 10.02.19
+
+# this code exists thanks to Texas-Mark on the official RPi forums,
+# he shared the code the original (PIR sensor) iteration of this was based on at
+# https://www.raspberrypi.org/forums/viewtopic.php?t=176241
+
+# button code version relied heavily on Soren at
+# https://raspberrypihq.com/use-a-push-button-with-raspberry-pi-gpio/
 
 import RPi.GPIO as GPIO
 import time
@@ -22,11 +29,6 @@ myCmd4 = 'omxplayer -o alsa lincoln4.mp3'
 myCmd5 = 'espeak "John Todd Stuart lent me books"'
 myList = [myCmd1, myCmd2, myCmd3, myCmd4, myCmd5]
 i_count = 0
-
-GPIO.setup(pir_sensor, GPIO.IN, GPIO.PUD_DOWN)
-
-current_state = 0
-GPIO.setup(led,GPIO.OUT)
 
 while True:
         input_state = GPIO.input(button) # primes the button!
