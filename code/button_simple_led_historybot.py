@@ -21,6 +21,7 @@ button_led = 26 # GPIO pin 26
 
 GPIO.setup(led,GPIO.OUT) # sets up pin 21 to output
 GPIO.setup(button, GPIO.IN, pull_up_down=GPIO.PUD_UP) #sets up pin 18 as a button
+GPIO.setup(button_led,GPIO.OUT) #sets up pin 26 to output
 
 myCmd1 = 'omxplayer --volume 602 -o alsa /home/pi/historybots/sports/ali_bot/ali1.mp3' # this clip was too low, changed volume
 myCmd2 = 'omxplayer -o alsa /home/pi/historybots/sports/ali_bot/ali2.mp3' # These examples are from the "Ali bot"
