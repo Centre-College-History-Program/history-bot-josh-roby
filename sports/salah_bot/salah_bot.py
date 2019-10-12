@@ -15,6 +15,8 @@ import random
 GPIO.setmode(GPIO.BCM) #use the GPIO numbering
 GPIO.setwarnings(False) # Avoids warning channel is already in use
 
+bot_name = "Salah Bot"
+
 led = 21 # GPIO pin 21
 button = 18 # GPIO pin 18
 button_led = 26 # GPIO pin 26
@@ -40,8 +42,8 @@ while True:
             os.system(random.choice(myList)) # play sound file
             GPIO.output(led,False) #turn off LED
             if i_count == 1:
-                print("History Bot has been activated" + str(i_count) + "time!")
+                print(bot_name + " has been activated " + str(i_count) + " time!")
             else:
-                print("History Bot has been activated" + str(i_count) + "times!")
+                print(bot_name + " has been activated " + str(i_count) + " times!")
             GPIO.output(button_led, True) # turns button led back on
             time.sleep(0.2)
