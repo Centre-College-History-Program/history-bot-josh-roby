@@ -1,4 +1,4 @@
-# John Harney, Centre College, updated 09.27.19
+# John Harney, Centre College, updated 10.11.19
 
 # this code exists thanks to Texas-Mark on the official RPi forums,
 # he shared the code the original (PIR sensor) iteration of this was based on at
@@ -17,6 +17,7 @@ GPIO.setwarnings(False) # Avoids warning channel is already in use
 
 led = 21 # GPIO pin 21
 button = 18 # GPIO pin 18
+button_led = 26 # GPIO pin 26
 
 GPIO.setup(led,GPIO.OUT) # sets up pin 21 to output
 GPIO.setup(button, GPIO.IN, pull_up_down=GPIO.PUD_UP) #sets up pin 18 as a button
@@ -28,7 +29,10 @@ myCmd4 = 'omxplayer -o alsa /home/pi/historybots/ali_bot/ali4.mp3' # as
 myCmd5 = 'omxplayer -o alsa /home/pi/historybots/ali_bot/ali5.mp3' # needed
 myCmd6 = 'omxplayer -o alsa /home/pi/historybots/ali_bot/ali6.mp3'
 myList = [myCmd1, myCmd2, myCmd3, myCmd4, myCmd5, myCmd6]
+
 i_count = 0
+
+GPIO.output(button_led, True) # turn on button led
 
 while True:
         input_state = GPIO.input(button) # primes the button!
