@@ -39,6 +39,8 @@ pwm = GPIO.PWM(button_led, 100)    # Created a PWM object
 pwm.start(0)                    # Started PWM at 0% duty cycle
 
 while True:
+        input_state = GPIO.input(button) # primes the button!
+        if input_state == True:
         for x in range(100):    # This Loop will run 100 times
             pwm.ChangeDutyCycle(x) # Change duty cycle
             time.sleep(0.01)         # Delay of 10mS
@@ -47,7 +49,7 @@ while True:
             pwm.ChangeDutyCycle(x)
             time.sleep(0.01)
 
-        input_state = GPIO.input(button) # primes the button!
+        
         if input_state == False:
             i_count = i_count + 1
             GPIO.output(led,True) #Turn on LED
