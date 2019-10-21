@@ -1,4 +1,4 @@
-# John Harney, Centre College, updated 10.11.19
+# John Harney, Centre College, updated 10.21.19
 
 # this code exists thanks to Texas-Mark on the official RPi forums,
 # he shared the code the original (PIR sensor) iteration of this was based on at
@@ -6,6 +6,8 @@
 
 # button code version relied heavily on Soren at
 # https://raspberrypihq.com/use-a-push-button-with-raspberry-pi-gpio/
+
+# this is the base code for all history bots as of 10.21.19
 
 import RPi.GPIO as GPIO
 import time
@@ -31,9 +33,7 @@ myCmd5 = 'omxplayer -o alsa /home/pi/historybots/sports/ali_bot/ali5.mp3' # need
 myCmd6 = 'omxplayer -o alsa /home/pi/historybots/sports/ali_bot/ali6.mp3'
 myList = [myCmd1, myCmd2, myCmd3, myCmd4, myCmd5, myCmd6]
 
-i_count = 0
-
-
+i_count = 0 # set up for correct grammar in notification below
 
 while True:
         GPIO.output(button_led, True) # turn on button led
