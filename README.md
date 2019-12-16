@@ -21,7 +21,7 @@ Finally, we are going to be creative! What will this history bot looke like? 3D 
 Students who take "History Bots" will:
 - develop skills in historical research, gaining experience in gathering different sources and choosing which materials to use
 - produce a work of history (in this case the "history bot") that engages with concepts of historical argument and narrative with a focus on a broader audience
-- work in groups to plan and execute a clearly articulated project, outlining student responsibilities and milestones towards the final product.
+- work in small groups to plan and execute a clearly articulated project, outlining student responsibilities and milestones towards the final product
 
 
 
