@@ -24,9 +24,12 @@ Students who take "History Bots" will:
 - work in small groups to plan and execute a clearly articulated project, outlining student responsibilities and milestones towards the final product
 
 
-
 ### History
+
+The class is focused on the popularity and usefulness of biography in historical writing. The field has moved away, in the last half century, from the history of "great men," but historical biographies are still among the most popular type of history book. Why is this? Student work, in creating a history bot, will be primarily an act of biography. What are the advantages and disadvantages of a biographical approach?
+
+Students will write a short research paper (of 1,800 to 2,000 words) on their group's chosen historical figure, and will run presentations discussing ongoing project work.
 
 ### Coding
 
-
+Having a background in coding for this class certainly will not hurt, but is not necessary. The instructor knows enough Python to be dangerous and little beyond that; we will educate ourselves in ethical use of open source software shared by its creators.
