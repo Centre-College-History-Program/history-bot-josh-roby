@@ -1,5 +1,32 @@
-# Tentative Schedule
-### History Bots, CentreTerm 2020
+# History Bots, CentreTerm 2020
+
+### Basic information
+
+Where: Young 110 <br>
+When: MTWThF, 9:20-12:20 <br>
+Who: John Harney (john.harney@centre.edu) <br>
+
+### Readings
+
+Martyn Lyons, _Napoleon Bonaparte and the Legacy of the French Revolution_ <br>
+Randy Roberts, _Blood Brothers: The Fatal Friendship Between Muhammad Ali and Malcolm X_ 
+
+### Class Participation
+
+This is CentreTerm, so missing a day is the same as missing a *week* of a regular term. It is extremely important you do not miss class time. 
+
+As for behavior in class, usual rules apply. Just be polite and attentive to the instructor and to each other. We will be doing a lot of group work in this class and there will be presentations, so you will need to be mindful of being polite and professional with each other as well as with me.
+
+### Grade Breakdown
+
+Participation: 10% <br>
+Essay: 20% <br>
+Solo Presentation: 15% <br>
+Group Presentation: 15% <br>
+History Bot (creativity, concept): 20% <br>
+History Bot Manual: 20%
+
+### Tentative Schedule
 
 Tuesday 1.7.20 <br>
 identify historical figure; examples and algorithms
