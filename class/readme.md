@@ -11,7 +11,7 @@ Thursday 1.9.20 <br>
 RPi setup; code
 
 Friday 1.10.20 <br>
-"final" sketch out bot; **presentation**
+"final" sketch out bot; **_presentation_**
 
 
 Monday 1.13.20 <br>
@@ -27,11 +27,11 @@ Thursday 1.16.20 <br>
 Muhammad Ali and Malcolm X
 
 Friday 1.17.20 <br>
-Muhammad Ali and Malcolm X continued; sketch out plan for bot; **presentation**
+Muhammad Ali and Malcolm X continued; sketch out plan for bot; **_presentation_**
 
 
 Monday 1.20.20 <br>
-coding; hardware, **essay due**
+coding; hardware, **_essay due_**
 
 Tuesday 1.21.20 <br>
 scripting
@@ -43,11 +43,11 @@ Thursday 1.23.20 <br>
 lab
 
 Friday 1.24.20 <br>
-lab; **group presentation**
+lab; **_group presentation_**
 
 
 Monday 1.27.20 <br>
 class demos
 
 Tuesday 1.28.20 <br>
-demonstration to guests; **submit history bot manual**
+demonstration to guests; **_submit history bot manual_**
