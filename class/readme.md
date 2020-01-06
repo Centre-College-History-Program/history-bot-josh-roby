@@ -13,7 +13,7 @@ Randy Roberts, _Blood Brothers: The Fatal Friendship Between Muhammad Ali and Ma
 
 ### Class Participation
 
-This is CentreTerm, so missing a day is the same as missing a *week* of a regular term. It is extremely important you do not miss class time. 
+This is CentreTerm, so missing a day is the same as missing a *week* of a regular term. It is extremely important you do not miss class time. I am obligated to let the Dean's Office know if someone misses more than two classes in CentreTerm. Missing class results in a hit to your participation grade, but it also has knock-on effects on everything else you do for class. 
 
 As for behavior in class, usual rules apply. Just be polite and attentive to the instructor and to each other. We will be doing a lot of group work in this class and there will be presentations, so you will need to be mindful of being polite and professional with each other as well as with me.
 
