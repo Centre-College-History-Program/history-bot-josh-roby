@@ -1,4 +1,6 @@
 #This script is for speech recognition on the Raspberry Pi 3B+
+#This code is partially borrowed and mostly inspired by David Amos from Real Python. 
+#The following is a link directly to his page: https://realpython.com/python-speech-recognition/#installing-speechrecognition
 import speech_recognition as sr
 import os
 import time
